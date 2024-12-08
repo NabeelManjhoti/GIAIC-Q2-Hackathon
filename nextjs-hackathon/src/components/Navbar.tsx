@@ -13,6 +13,7 @@ import { FiMenu } from "react-icons/fi";
 
 
 const poppins = Poppins({
+    subsets: ["latin"],
     weight: "500"
 })
 
@@ -36,7 +37,7 @@ export default function Navbar() {
                 </div>
 
                 <div className="hidden lg:block">
-                    <ul className={`${poppins.className} text-[16px] font-medium flex gap-14`}>
+                    <ul className={`${poppins.className} text-[16px] font-medium flex gap-14 text-textCol`}>
                         <li><Link href={"/"}>Home</Link></li>
                         <li><Link href={"/shop"}>Shop</Link></li>
                         <li><Link href={"/blog"}>Blog</Link></li>
@@ -97,7 +98,7 @@ export default function Navbar() {
                                     />
                                 </div></SheetTitle>
                                 <SheetDescription>
-                                    <ul className={`${poppins.className} text-[26px] font-medium flex flex-col gap-10 mt-10`}>
+                                    <ul className={`${poppins.className} text-[26px] font-medium flex flex-col gap-10 mt-10 text-textCol`}>
                                         <li><Link href={"/"}>Home</Link></li>
                                         <li><Link href={"/shop"}>Shop</Link></li>
                                         <li><Link href={"/blog"}>Blog</Link></li>

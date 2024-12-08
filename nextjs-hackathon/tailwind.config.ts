@@ -14,7 +14,8 @@ export default {
 		},
   		colors: {
   			background: 'var(--background)',
-  			foreground: 'var(--foreground)'
+  			foreground: 'var(--foreground)',
+			textCol: "#3A3A3A"
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
